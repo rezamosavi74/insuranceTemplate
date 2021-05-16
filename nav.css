@@ -1,0 +1,332 @@
+body {
+    text-align: center !important;
+    font-family: 'Karla', sans-serif !important;
+}
+
+.ff {
+    width: 100%;
+}
+
+.jj {
+    display: none;
+}
+
+.navbut {
+    border: none !important;
+    outline: none !important;
+}
+
+.navcollapse {
+    background-image: url(bg-pattern-mobile-nav.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(270, 9%, 17%);
+    padding-bottom: 300px;
+}
+
+.navcollapse a {
+    color: white ;
+}
+
+a button {
+    width: 80%;
+    height: 40px;
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+a button:hover {
+    color: hsl(270, 9%, 17%);
+    background-color: white;
+}
+
+.intro {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    padding: 100 55;
+    margin-bottom: 150;
+    background-image: url(bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.intro::before {
+    content: '';
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(bg-pattern-intro-right-mobile.svg);
+    background-position: right bottom;
+}
+
+.horizon {
+    width: 30%;
+}
+
+.intro button, .findout button {
+    width: 50%;
+    height: auto;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border: 2px solid;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.intro button:hover, .findout button:hover {
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+}
+
+.between {
+    margin: 50px auto;
+}
+
+.different {
+    margin-bottom: 100px;
+}
+
+.different p {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.findout {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    background-image: url(bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 70px 30px;
+    margin: 0 20px;
+}
+
+.findout h1 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.more {
+    margin-bottom: 50px;
+}
+
+.mainone {
+    position: relative;
+}
+
+.mainone, .maintwo {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-image: url(bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: contain;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.foot {
+    padding: 50px 0;
+}    
+
+.footinner {
+    padding: 55px 0;
+}
+
+.icon {
+    padding: 5px;
+    cursor: pointer;
+} 
+
+.icon:hover {
+   filter: brightness(0);
+}
+
+.foothrz {
+    width: 80%;
+}
+
+
+.footlast {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footul a {
+    color: hsl(270, 9%, 17%);
+}
+
+.footul a:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.footp {
+    color: hsl(273, 4%, 51%);
+}
+
+h1, h3 {
+    font-family: 'DM Serif Display', serif !important;
+}
+
+
+@media screen and (min-width:600px) {
+
+    body {
+        text-align: unset !important;
+    }
+
+    nav {
+        margin: 0 13%;
+    }
+
+    .list {
+        margin-left: auto;
+    }
+
+    .navcollapse {
+        background: none;
+        padding-bottom: 0;
+    
+    }
+
+    .navcollapse a {
+        color: hsl(273, 4%, 51%);
+    }
+
+    .navcollapse a:hover {
+        color: hsl(270, 9%, 17%);
+    }
+
+    a button {
+        width: 120px;
+        height: auto;
+        background-color: white;
+        color: hsl(256, 26%, 20%);
+        border-color: hsl(256, 26%, 20%);
+        cursor: pointer;
+    }
+
+    a button:hover {
+        color: white;
+        background-color: hsl(256, 26%, 20%);
+    }
+
+    
+
+    .ff {
+        display: none;
+    }
+
+    .jj {
+        display: inline-block;
+        position: absolute;
+        top: 25%;
+        right: 14.6%;
+        width: 30%;
+        height: 100%;
+    }
+
+    .intro {
+        background-image: url(bg-pattern-intro-right-desktop.svg);
+        background-position: right top;
+        background-size: 30%;
+        padding: 100px 0;
+    }
+
+    .intro::before {
+        background-image: url(bg-pattern-intro-left-desktop.svg);
+        height: 154%;
+        width: 21.8%;
+        background-position: left bottom;
+    }
+
+    .intro h1,.intro p {
+        width: 472px;
+        margin: 0 14%;
+    }
+
+    .intro button{
+        width: 10%;
+        margin: 10 14%;
+    }
+
+    .horizon {
+        width: 10%;
+        margin-left: 14%;
+    }
+
+    .mainone {
+        margin-bottom: 300px;
+    }
+
+    .maintwo {
+        margin: 0 14%;
+    }
+
+
+    .findout button {
+        width: 80%;
+    }
+
+
+    .between {
+        margin: 0;
+    }
+
+    .different p {
+        width: auto;
+        
+    }
+
+    .findout {
+        background-image: url(bg-pattern-how-we-work-desktop.svg);
+        margin: 0;
+        margin-bottom: 100px;
+        
+    }
+
+    .findout h1 {
+        width: auto;
+        margin: auto;
+    }
+
+    .more {
+        margin-bottom: 0;
+    }
+
+    .morebut {
+        padding-top: 25px;
+    }
+
+    footer {
+        background-image: url(bg-pattern-footer-desktop.svg);
+        background-position: left top;
+        background-size: 50%;
+        padding: 0 14%;
+    }
+
+    .foot {
+        padding: 0;
+        padding-top: 100;
+        
+    }
+
+    .footinner {
+        padding: 0;
+    }
+
+    .foothrz {
+        width: 100%;
+    }
+}
